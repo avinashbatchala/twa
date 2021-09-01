@@ -19,16 +19,17 @@ mentions_layout = html.Div(
                         dcc.Dropdown(
                             id="count-mentions",
                             multi=False,
-                            value=20,
+                            value=30,
                             options=[
                                 {"label": "10", "value": 10},
                                 {"label": "20", "value": 20},
                                 {"label": "30", "value": 30},
+                                {"label": "100", "value": 10 0},
                             ],
                             clearable=False,
                         ),
                     ],
-                    width=3,
+                    width=4,
                 ),
                 dbc.Col(
                     [
