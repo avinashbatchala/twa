@@ -101,17 +101,4 @@ def display_trend(timer):
     # join all tweet text into one string
     alltweets = " ".join(tweet for tweet in liked_twt)
 
-    # # generate wordcloud from all tweets
-    # my_wordcloud = WordCloud(
-    #     stopwords=stopwords,
-    #     background_color='white',
-    #     height=275
-    # ).generate(alltweets)
 
-    # # visualize wordcloud inside plotly figure
-    # fig = px.imshow(my_wordcloud, template='ggplot2')
-    # fig.update_layout(margin=dict(l=20, r=20, t=30, b=20))
-    # fig.update_xaxes(visible=False)
-    # fig.update_yaxes(visible=False)
-
-    #return dcc.Graph(figure=fig, config={"displayModeBar":False})
