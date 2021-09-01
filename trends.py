@@ -114,4 +114,4 @@ def display_trend(timer):
     # fig.update_xaxes(visible=False)
     # fig.update_yaxes(visible=False)
 
-    return dcc.Graph(figure=fig, config={"displayModeBar":False})
+    #return dcc.Graph(figure=fig, config={"displayModeBar":False})
