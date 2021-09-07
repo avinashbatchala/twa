@@ -24,7 +24,7 @@ mentions_layout = html.Div(
                                 {"label": "10", "value": 10},
                                 {"label": "20", "value": 20},
                                 {"label": "30", "value": 30},
-                                {"label": "100", "value": 10 0},
+                                {"label": "100", "value": 100},
                             ],
                             clearable=False,
                         ),

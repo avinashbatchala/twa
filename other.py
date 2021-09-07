@@ -13,7 +13,7 @@ from app import app, api
 other_layout = html.Div([
     dbc.Row([
         dbc.Col([
-            html.H2("More Twitter analysis to come...")
+            html.H2("Work in Progress...")
         ], width=12)
     ]),
     dbc.Row([

@@ -25,7 +25,7 @@ def f(row):
 trends_layout = dbc.Container([
     dbc.Row([
         dbc.Col([
-            html.H2("Most trending topics & Word Cloud Analysis of tweets")
+            html.H2("Most trending topics")
         ], width=12)
     ]),
     dbc.Row([
