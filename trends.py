@@ -9,7 +9,8 @@ import pandas as pd
 import twitter  # pip install python-twitter
 from app import app, api
 import nltk
-#from wordcloud import WordCloud
+
+
 # nltk.download('stopwords') # only downlaod once
 # Resource: https://python-twitter.readthedocs.io/en/latest/twitter.html
 
