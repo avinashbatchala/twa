@@ -101,5 +101,3 @@ def display_trend(timer):
 
     # join all tweet text into one string
     alltweets = " ".join(tweet for tweet in liked_twt)
-
-
